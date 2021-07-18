@@ -62,6 +62,15 @@ export let segment;
       <ul class="menu-sub">
         <li>
           <a
+            class="{segment === 'archive' ? 'selected' : ''}"
+            href="{archiveLink}"
+            rel="prefetch"
+            data-testid="navigation-archive">
+            Archívum
+          </a>
+        </li>
+        <li>
+          <a
             class="{segment === 'shows?type=speech' ? 'selected' : ''}"
             href="shows?type=speech"
             rel="prefetch">
@@ -75,19 +84,18 @@ export let segment;
             Zenei
           </a>
         </li>
-        <li>
-          <a
-            class="{segment === 'archive' ? 'selected' : ''}"
-            href="{archiveLink}"
-            rel="prefetch"
-            data-testid="navigation-archive">
-            Archívum
-          </a>
-        </li>
+      <li>
+      <a href="#0">Podcast</a>
+      <ul class="menu-sub">
+        <li><a href="">Zenei</a></li>
+        <li><a href="">Beszélgetős</a></li>
+        <li><a href="">Mese</a></li>
+      </ul>
+    </li>
       </ul>
     </li>
     <li>
-      <a href="#0">Magazín</a>
+      <a href="#0">Magazin</a>
       <ul class="menu-sub">
         <li><a href="">Cikkek</a></li>
         <li><a href="">Interjúk</a></li>
@@ -99,19 +107,26 @@ export let segment;
     <li>
       <a href="#0">Mi</a>
       <ul class="menu-sub">
+        <li><a href="">A Tilos Rádió története</a></li>
+        <li><a href="">Tilos Kulturális Alapítvány</a></li>
         <li><a href="">Műsorkészítők</a></li>
-        <li><a href="">Eddigi vendégeink</a></li>
-        <li><a href="">Sajtó</a></li>
-        <li><a href="">Mementó</a></li>
         <li><a href="">Kapcsolat</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#0">Magazin</a>
+      <ul class="menu-sub">
+        <li><a href="">Sajtó</a></li>
+        <li><a href="">Maraton</a></li>
+        <li><a href="">Tematikus napok</a></li>
       </ul>
     </li>
     <li>
       <a href="#0">Támogatás</a>
       <ul class="menu-sub">
-        <li><a href="">Rendszeres átutalás</a></li>
+        <li><a href="">Támogatási formák</a></li>
+        <li><a href="">Tilos Támogatói Tagkártya</a></li>
         <li><a href="">Adó 1%</a></li>
-        <li><a href="">Tilos Támogatói Tagkártya Beváltóhelyek</a></li>
       </ul>
     </li>
     <li>
