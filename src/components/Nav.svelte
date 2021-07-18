@@ -84,14 +84,14 @@ export let segment;
             Zenei
           </a>
         </li>
-      <li>
-      <a href="#0">Podcast</a>
-      <ul class="menu-sub">
-        <li><a href="">Zenei</a></li>
-        <li><a href="">Beszélgetős</a></li>
-        <li><a href="">Mese</a></li>
-      </ul>
-    </li>
+        <li>
+          <a href="#0">Podcast</a>
+          <ul class="menu-sub">
+            <li><a href="">Zenei</a></li>
+            <li><a href="">Beszélgetős</a></li>
+            <li><a href="">Mese</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
     <li>
