@@ -58,7 +58,7 @@ export let segment;
 <nav>
   <ul class="menu">
     <li>
-      <a class="{segment === undefined ? 'selected' : ''}" href=".">home</a>
+      <a class="{segment === undefined ? 'selected' : ''}" href=".">Médiatár</a>
       <ul class="menu-sub">
         <li>
           <a
