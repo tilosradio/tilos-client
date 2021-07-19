@@ -95,16 +95,6 @@ export let segment;
       </ul>
     </li>
     <li>
-      <a href="#0">Magazin</a>
-      <ul class="menu-sub">
-        <li><a href="">Cikkek</a></li>
-        <li><a href="">Interjúk</a></li>
-        <li><a href="">Ajánlók</a></li>
-        <li><a href="">Maraton</a></li>
-        <li><a href="">Tematikus napok</a></li>
-      </ul>
-    </li>
-    <li>
       <a href="#0">Mi</a>
       <ul class="menu-sub">
         <li><a href="">A Tilos Rádió története</a></li>
